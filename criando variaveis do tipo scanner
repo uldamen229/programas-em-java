@@ -1,52 +1,5 @@
 import java.util.Scanner;
 public class Main {
-	public static void main(String[] args) {
-	
-// CRIAÇÃO DA VARIAVEL SCANNER QUE É UTILIZADA PARA DAR ENTRADA DE DADOS UTILIZANO O TECLADO
-	//CRIANDO VARIAVEL TIPO SCANNER E ATRIBUINDO VARIAVEL TIPO "STRING"
-		
-		Scanner sc = new Scanner(System.in);
-		
-		String x;
-		System.out.println("Digite uma variavl tipo String:\n");
-		x = sc.next();
-		System.out.println("voce digitou:  " + x);
-		
-//CRIANDO VARIAVEL DO TIPO SCANNER E ATRIBUINDO VARIAVEL DO TIPO "INT"		
-		Scanner si = new Scanner(System.in);
-		int y;
-		System.out.println("Digite uma variavl tipo inteiro:\n");
-		y = si.nextInt();
-		System.out.println("voce digitou: " + y);
-		
-		
-		//CRIANDO VARIAVEL DO TIPO SCANNER E ATRIBUINDO A VARIAVEL DO TIPO "DOUBLE"
-		Scanner sd = new Scanner(System.in);
-		double  d ;
-		System.out.println("Digite uma variavl tipo double:\n");
-
-		d = sd.nextDouble();
-		System.out.println("voce digitou: " + d);
-		
-		//CRIANDO VARIAVEL DO TIPO SCANNER E ATRIBUINDO VARIAVEL DO TIPO "CHAR"
-		Scanner sx = new Scanner(System.in);
-		char C;
-		System.out.println("Digite uma variavl tipo CHAR:\n");
-		C = sx.next().charAt(0);
-		System.out.println("voce digitou: " + C);
-		
-		
-		sd.close();
-		si.close();
-		sc.close();
-		sx.close();
-		
-		
-		
-	}
-}
-import java.util.Scanner;
-public class Main {
 
 	public static void main(String[] args) {
 	
@@ -85,7 +38,7 @@ public class Main {
 		C = sx.next().charAt(0);
 		System.out.println("voce digitou: " + C);
 		
-		
+		//chamando todas as variaveis de uma vez para serem digitadas respectivamente
 		String g;
 		int h;
 		double j;
