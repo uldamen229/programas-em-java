@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+	
+		
+		Scanner sc = new Scanner(System.in);
+		double area = 0;
+		double pi = 3.14159;
+		double raio = 0;
+		double raio2 = 2;
+		
+		
+		System.out.println("Digite o valor do raio: ");
+		
+		raio = sc.nextDouble();
+		
+		raio = Math.pow(raio, raio2);
+		area = pi * raio;
+		
+		
+		System.out.printf("A area do circulo é igual a:%.4f %n", area);
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}
