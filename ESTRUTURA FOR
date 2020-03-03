@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc =  new  Scanner ( System.in);
+		
+		int N;
+		int X1 = 0;
+		int X2 = 0;
+		System.out.println("Digite a quantidade valores inteiros:");
+		N = sc.nextInt();
+		for(int i=0; N > i; i++ ) {
+			int X;
+			
+			System.out.println("digite o valore de X:");
+			
+			X = sc.nextInt();
+			
+			if(X >= 10 && X <= 20) {
+				X1 = X1 + 1;
+		
+			}else {
+				X2 = X2 + 1;
+			}
+		}
+		System.out.printf("in: %d\n", X1);
+		System.out.printf("out:%d\n", X2);
+		
+		
+		sc . close();
+}
+	
+}
